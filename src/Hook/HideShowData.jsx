@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./HideShowData.css"; // Import the CSS file
+import "./HideShowData.css";
 import Calculator from "./Calculator";
 import "./HideShowData.css";
 
