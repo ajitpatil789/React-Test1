@@ -12,6 +12,12 @@ import UseEffectApp from "./UseEffect/UseEffectApp";
 import Counter from "./UseEffect/IncDecButton";
 import ClearInput from "./Hook/ClearInput";
 import LoginForm from "./UseRefHook/Login";
+import { CompanyProvider } from "./UseContextHook/CompanyContext";
+
+import ComponentA from "./UseContextHook/ComponentA";
+import ComponentB from "./UseContextHook/ComponentB";
+import ComponentC from "./UseContextHook/ComponentC";
+import AppLayout from "./UseContext2/AppLayout";
 
 function App() {
   return (
@@ -26,6 +32,13 @@ function App() {
       {/* <Counter /> */}
       {/* <ClearInput /> */}
       <LoginForm />
+      {/* <CompanyProvider>
+        <h1>Welcome to Our Company</h1>
+        <ComponentA />
+        <ComponentB />
+        <ComponentC />
+      </CompanyProvider> */}
+      {/* <AppLayout /> */}
     </>
   );
 }

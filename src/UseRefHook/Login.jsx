@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import "./LoginForm.css";
 
 function LoginForm() {
@@ -6,7 +6,7 @@ function LoginForm() {
   const passwordRef = useRef(null);
 
   // Focus email input when component mounts
-  React.useEffect(() => {
+  useEffect(() => {
     emailRef.current.focus();
   }, []);
 
