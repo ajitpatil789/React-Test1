@@ -6,6 +6,7 @@ import LightSwitch from "./LightSwitch";
 import DynamicList from "./DynamicList";
 import CharacterCounter from "./CharacterCounter";
 import TemperatureConverter from "./TemperatureConverter";
+import MultipleInput from "./MultipleInput";
 
 function UseStateAppLayout() {
   return (
@@ -19,13 +20,14 @@ function UseStateAppLayout() {
         gap: "20px",
       }}
     >
-      <InputTracker />
+      {/* <InputTracker />
       <ChangeBgColor />
       <ShoppingCartCounter />
       <LightSwitch />
       <DynamicList />
       <CharacterCounter />
-      <TemperatureConverter />
+      <TemperatureConverter /> */}
+      <MultipleInput />
     </div>
   );
 }

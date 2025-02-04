@@ -6,6 +6,12 @@ import ChangeBgColor from "./Hook/ChangeBgColor";
 import HideShowData from "./Hook/HideShowData";
 import StateChangeUseState from "./Hook/StateChangeUseState";
 import UseStateAppLayout from "./UseState-Hook/UseStateAppLayout";
+import DataFetching from "./UseEffect/DataFeatching";
+import UserList from "./UseEffect/DataFeatching";
+import UseEffectApp from "./UseEffect/UseEffectApp";
+import Counter from "./UseEffect/IncDecButton";
+import ClearInput from "./Hook/ClearInput";
+import LoginForm from "./UseRefHook/Login";
 
 function App() {
   return (
@@ -15,7 +21,11 @@ function App() {
       {/* <Calculator /> */}
       {/* <HideShowData /> */}
       {/* <ChangeBgColor /> */}
-      <UseStateAppLayout />
+      {/* <UseStateAppLayout /> */}
+      {/* <UseEffectApp /> */}
+      {/* <Counter /> */}
+      {/* <ClearInput /> */}
+      <LoginForm />
     </>
   );
 }
