@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
 import { createContext } from "react";
-
+//create one table and pass the data by using useContext.
+//-Data: Name and DOB
 const DataContext = createContext();
 
 const DataProvider = ({ children }) => {
