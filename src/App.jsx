@@ -18,6 +18,7 @@ import ComponentA from "./UseContextHook/ComponentA";
 import ComponentB from "./UseContextHook/ComponentB";
 import ComponentC from "./UseContextHook/ComponentC";
 import AppLayout from "./UseContext2/AppLayout";
+import UseMemoHook from "./UseMemo Hook/UseMemoHook";
 
 function App() {
   return (
@@ -31,7 +32,7 @@ function App() {
       {/* <UseEffectApp /> */}
       {/* <Counter /> */}
       {/* <ClearInput /> */}
-      <LoginForm />
+      {/* <LoginForm /> */}
       {/* <CompanyProvider>
         <h1>Welcome to Our Company</h1>
         <ComponentA />
@@ -39,6 +40,7 @@ function App() {
         <ComponentC />
       </CompanyProvider> */}
       {/* <AppLayout /> */}
+      <UseMemoHook />
     </>
   );
 }
