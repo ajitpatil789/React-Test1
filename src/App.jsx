@@ -20,6 +20,8 @@ import ComponentC from "./UseContextHook/ComponentC";
 import AppLayout from "./UseContext2/AppLayout";
 import UseMemoHook from "./UseMemo Hook/UseMemoHook";
 
+import NumberChecker from "./UseMemo Hook/NumberChecker";
+
 function App() {
   return (
     <>
@@ -40,7 +42,10 @@ function App() {
         <ComponentC />
       </CompanyProvider> */}
       {/* <AppLayout /> */}
-      <UseMemoHook />
+      {/* <UseMemoHook /> */}
+      {/* <StudentSearch /> */}
+
+      <NumberChecker />
     </>
   );
 }
