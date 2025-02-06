@@ -1,0 +1,79 @@
+.bank-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.balance {
+  text-align: center;
+  color: #2c3e50;
+  font-size: 2.5rem;
+  margin: 0 0 1.5rem 0;
+  font-weight: 600;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  border: 2px solid #bdc3c7;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+.button-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.credit-btn,
+.debit-btn {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+.credit-btn {
+  background-color: #27ae60;
+  color: white;
+}
+
+.debit-btn {
+  background-color: #c0392b;
+  color: white;
+}
+
+.credit-btn:hover {
+  background-color: #219a52;
+  transform: translateY(-2px);
+}
+
+.debit-btn:hover {
+  background-color: #ab3326;
+  transform: translateY(-2px);
+}
+
+.error-message {
+  color: #c0392b;
+  text-align: center;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}

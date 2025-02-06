@@ -24,6 +24,7 @@ import NumberChecker from "./UseMemo Hook/NumberChecker";
 import StudentSearch from "./UseMemo Hook/FilterList";
 import CustomHook from "./Custome Hook/CustomHook";
 import TodoList from "./TodoList/TodoList";
+import BankAccount from "./Custome Hook/Bank App/BankAccount";
 
 function App() {
   return (
@@ -49,7 +50,8 @@ function App() {
       {/* <StudentSearch /> */}
       {/* <NumberChecker /> */}
       {/* <CustomHook /> */}
-      <TodoList />
+      {/* <TodoList /> */}
+      <BankAccount />
     </>
   );
 }
