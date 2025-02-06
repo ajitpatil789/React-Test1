@@ -21,6 +21,9 @@ import AppLayout from "./UseContext2/AppLayout";
 import UseMemoHook from "./UseMemo Hook/UseMemoHook";
 
 import NumberChecker from "./UseMemo Hook/NumberChecker";
+import StudentSearch from "./UseMemo Hook/FilterList";
+import CustomHook from "./Custome Hook/CustomHook";
+import TodoList from "./TodoList/TodoList";
 
 function App() {
   return (
@@ -44,8 +47,9 @@ function App() {
       {/* <AppLayout /> */}
       {/* <UseMemoHook /> */}
       {/* <StudentSearch /> */}
-
-      <NumberChecker />
+      {/* <NumberChecker /> */}
+      {/* <CustomHook /> */}
+      <TodoList />
     </>
   );
 }
