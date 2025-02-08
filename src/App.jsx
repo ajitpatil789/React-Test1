@@ -25,6 +25,7 @@ import StudentSearch from "./UseMemo Hook/FilterList";
 import CustomHook from "./Custome Hook/CustomHook";
 import TodoList from "./TodoList/TodoList";
 import BankAccount from "./Custome Hook/Bank App/BankAccount";
+import AverageFinder from "./React Test/AverageFinder";
 
 function App() {
   return (
@@ -51,7 +52,8 @@ function App() {
       {/* <NumberChecker /> */}
       {/* <CustomHook /> */}
       {/* <TodoList /> */}
-      <BankAccount />
+      {/* <BankAccount /> */}
+      <AverageFinder />
     </>
   );
 }
