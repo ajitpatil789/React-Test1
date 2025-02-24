@@ -26,6 +26,8 @@ import CustomHook from "./Custome Hook/CustomHook";
 import TodoList from "./TodoList/TodoList";
 import BankAccount from "./Custome Hook/Bank App/BankAccount";
 import AverageFinder from "./React Test/AverageFinder";
+import SignupForm from "./Formik/SignupForm";
+import SignupFormYup from "./Formik/Scema Validation with YUP/SignupFormYup";
 
 function App() {
   return (
@@ -53,7 +55,9 @@ function App() {
       {/* <CustomHook /> */}
       {/* <TodoList /> */}
       {/* <BankAccount /> */}
-      <AverageFinder />
+      {/* <AverageFinder /> */}
+      {/* <SignupForm /> */}
+      <SignupFormYup />
     </>
   );
 }
