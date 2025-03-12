@@ -20,14 +20,14 @@ function UseStateAppLayout() {
         gap: "20px",
       }}
     >
-      {/* <InputTracker />
-      <ChangeBgColor />
-      <ShoppingCartCounter />
-      <LightSwitch />
-      <DynamicList />
-      <CharacterCounter />
-      <TemperatureConverter /> */}
-      <MultipleInput />
+      <InputTracker />
+      {/* <ChangeBgColor /> */}
+      {/* <ShoppingCartCounter /> */}
+      {/* <LightSwitch /> */}
+      {/* <DynamicList /> */}
+      {/* <CharacterCounter /> */}
+      {/* <TemperatureConverter /> */}
+      {/* <MultipleInput /> */}
     </div>
   );
 }

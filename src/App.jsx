@@ -37,7 +37,7 @@ function App() {
       {/* <Calculator /> */}
       {/* <HideShowData /> */}
       {/* <ChangeBgColor /> */}
-      {/* <UseStateAppLayout /> */}
+      <UseStateAppLayout />
       {/* <UseEffectApp /> */}
       {/* <Counter /> */}
       {/* <ClearInput /> */}
@@ -57,7 +57,7 @@ function App() {
       {/* <BankAccount /> */}
       {/* <AverageFinder /> */}
       {/* <SignupForm /> */}
-      <SignupFormYup />
+      {/* <SignupFormYup /> */}
     </>
   );
 }
